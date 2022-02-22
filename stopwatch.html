@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <center style="margin-top: 170px;">
+        <div class="container">
+            <div class="header">
+                <h1 id="title">Stopwatch</h1>
+            </div>
+            <div class="content">
+                <h1 id="Content">00 : 00 : 00</h1>
+            </div>
+            <div class="btn">
+                <button onclick="startTime()" class="str"><i class="fas fa-play"></i></button>
+                <button onclick="stoptTime()" class="str"><i class="fas fa-pause"></i></button>
+                <button onclick="restartTime()" class="str"><i class="fas fa-redo"></i></button>
+            </div>
+        </div>
+    </center>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

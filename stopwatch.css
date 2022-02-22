@@ -1,0 +1,60 @@
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+*{
+    font-family: digital;
+    font-size: 40px;
+}
+i{
+    font-size: 25px;
+}
+.fas:active{
+    bottom: 5px;
+    position: relative;
+}
+#title{
+    margin: 110px 0 0 0;
+    text-align: center;
+}
+#Content{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-top: 35px;
+    text-align: center;
+}
+.str{
+    margin-right: 10px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: lightblue;
+    box-shadow: 0 9px lightskyblue;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+button:active{
+    background-color: lightskyblue;
+    box-shadow: 0 5px lightskyblue;
+    transform: translateY(4px);
+}
+button:hover{
+    animation: hover 3s;
+}
+@keyframes hover {
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: lightskyblue;
+    }
+}
